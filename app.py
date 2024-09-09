@@ -114,7 +114,7 @@ def st_navbar_config():
     page = st_navbar(pages,logo_path="images/Progress Rail Logo_Black.svg",styles=styles,options=options)
 
     st.write("") #Setting padding between the navigation bar and the page
-#st_navbar_config()
+st_navbar_config()
 
 with st.sidebar:
     st.sidebar.image("images/ProgressRail_Full Color_Logo.png", use_column_width=True)
